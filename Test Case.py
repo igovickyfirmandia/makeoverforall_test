@@ -167,7 +167,7 @@ class MkoverforallTest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        #cls.driver.quit()
+        cls.driver.quit()
         print('Test completed.....')
 
 
